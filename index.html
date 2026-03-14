@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio.</title>
+    <meta name="description" content="A premium modern portfolio showcasing web development skills and projects.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blob-bg blob-1"></div>
+    <div class="blob-bg blob-2"></div>
+    
+    <nav class="navbar glass-nav" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Portfo<span>lio.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="hero-content fade-in">
+                <p class="greeting">Hi there, I am a</p>
+                <h1 class="gradient-text glitch" data-text="Creative Developer">Creative Developer</h1>
+                <p class="hero-desc">I craft interactive, high-performance web experiences that wow users through seamless animations, bold aesthetics, and pixel-perfect engineering.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in scroll-delay">
+                <div class="glass-card hero-glass">
+                    <div class="abstract-ring r1"></div>
+                    <div class="abstract-ring r2"></div>
+                    <div class="abstract-ring r3"></div>
+                    <div class="code-snippet">
+                        <code>
+                            <span class="token-keyword">const</span> <span class="token-var">createMagic</span> <span class="token-operator">=</span> () <span class="token-operator">=></span> {<br>
+                            &nbsp;&nbsp;<span class="token-function">animate</span>(<span class="token-string">'everything'</span>);<br>
+                            &nbsp;&nbsp;<span class="token-keyword">return</span> <span class="token-boolean">true</span>;<br>
+                            };
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="section-header fade-in">
+                <span class="section-subtitle">01. Discover</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            
+            <div class="about-content glass-card fade-in">
+                <div class="about-text">
+                    <p>I specialize in building visually stunning, accessible, and performant web applications. With a strong foundation in modern JavaScript and CSS, I turn complex problems into elegant, intuitive digital solutions.</p>
+                    <div class="skills-grid">
+                        <div class="skill-tag">HTML5 & CSS3</div>
+                        <div class="skill-tag">JavaScript (ES6+)</div>
+                        <div class="skill-tag">React / Next.js</div>
+                        <div class="skill-tag">UI/UX Animations</div>
+                        <div class="skill-tag">Tailwind & SASS</div>
+                        <div class="skill-tag">Node.js</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <div class="section-header fade-in">
+                <span class="section-subtitle">02. Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glass-card fade-in">
+                    <div class="project-image p1"></div>
+                    <div class="project-info">
+                        <h3>Nexus E-Commerce</h3>
+                        <p>A high-octane modern web storefront built with immersive 3D elements and micro-interactions.</p>
+                        <div class="project-tech">
+                            <span>React</span><span>Three.js</span><span>Framer</span>
+                        </div>
+                        <a href="#" class="btn-link">View Project <span class="arrow">→</span></a>
+                    </div>
+                </div>
+                <div class="project-card glass-card fade-in" style="transition-delay: 100ms;">
+                    <div class="project-image p2"></div>
+                    <div class="project-info">
+                        <h3>FinDash Analytics</h3>
+                        <p>An intuitive, real-time analytics dashboard for visualizing complex data streams elegantly.</p>
+                        <div class="project-tech">
+                            <span>Vue</span><span>D3.js</span><span>Node</span>
+                        </div>
+                        <a href="#" class="btn-link">View Project <span class="arrow">→</span></a>
+                    </div>
+                </div>
+                <div class="project-card glass-card fade-in" style="transition-delay: 200ms;">
+                    <div class="project-image p3"></div>
+                    <div class="project-info">
+                        <h3>Aura AI Platform</h3>
+                        <p>Responsive application shell for a next-gen AI platform focusing on typography and deep contrast.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span><span>GSAP</span><span>Tailwind</span>
+                        </div>
+                        <a href="#" class="btn-link">View Project <span class="arrow">→</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="section-header fade-in">
+                <span class="section-subtitle">03. Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-wrapper fade-in">
+                <div class="contact-card glass-card">
+                    <div class="contact-info">
+                        <h3>Let's build something extraordinary.</h3>
+                        <p>I'm currently available for freelance opportunities or full-time roles. If you have a project that needs a creative touch, hit me up!</p>
+                        <ul class="contact-links">
+                            <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">GitHub</a></li>
+                        </ul>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="input-group">
+                            <input type="text" id="name" required placeholder=" " />
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required placeholder=" " />
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" required placeholder=" " rows="4"></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn primary-btn submit-btn">
+                            <span>Send Message</span>
+                            <div class="btn-bg"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="#home" class="logo footer-logo">Portfo<span>lio.</span></a>
+            <p>&copy; <span id="currentYear"></span> Crafted with passion and code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
